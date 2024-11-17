@@ -12,18 +12,32 @@ background-color: #1CD1B0;
 padding: 10px 0px 10px 10px;
 border: 1px solid #000000;
 box-shadow: 0px 1px 5px rgba(36, 35, 35, 0.543);
-
 border: 1px 0px 0px 0px;
 }
-h1{
+header .titulo{
+    display: flex;
     background-color: #00669F;
+    box-shadow: 0px 3px 5px rgba(36, 35, 35, 0.543);
+}
+h1{
     padding: 26px 0px 28px 26px;
     font-weight: 400;
-    box-shadow: 0px 3px 5px rgba(36, 35, 35, 0.543);
-   
     top: 604px;
     left: 378px;
 }
+header .menu {
+    background-color: #000000;
+    text-align:right;
+    margin-left: 10px;
+    
+}
+header .menu a{
+    text-decoration: none;
+    color: #f3f3f3;
+    margin-left: 10px; 
+    padding-left:10px ;  
+}
+
 
 .tarjetas {
     margin: 153px 32px 150px 32px;
@@ -66,8 +80,7 @@ h1{
     max-width: 120px;
 }
 .cuerpo {
-    width: 100%;
-  
+    width: 100%;  
     padding: 73px 16px 104px 16px;
     background-color: #f3f3f3;
     
@@ -101,9 +114,12 @@ h1{
     background-color: #00669F;
     padding: 16px 0px 16px 32px;
     color: white;
-   
+    text-align: center; 
     top: 972px;
-    
+    font-size: 1.5vw;
+ }
+ footer img {
+  margin-left: 15%;
  }
  @media screen {
     
