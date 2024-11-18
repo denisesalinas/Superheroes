@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./IMG/logo 1.svg" type="image/x-icon">
+    <title>Superheroes</title>
+    <link rel="stylesheet" href="./CSS/styleSuper.css ">
+
+<body>  
+
+    <header >
+        <div class=" Descuento">
+            20% de descuento en todos los productos!
+        </div>
+        
+        <div class="titulo"> 
+            <i><img src="./IMG/logo 1.svg" alt=""></i>           
+        <h1> Nombre Tienda</h1>
+        </div>
+
+        <div class="menu">
+           <a href="#">Contacto</a>
+           <a href="#">Resgistrarme</a> 
+           <a href="#">Ingresar</a> 
+        </div>
+         
+    </header>
+    <main>
+        <a href="./Superheroes.html" ><img src="./IMG/circle-play-solid.png" class="inicio" alt=""></a>
+        <section class="formulario">
+                <div class="encabezado">
+                    <h1>Añadir tu super!</h1>
+                    <span>Agregá tu personaje favorito completando las ociones.</span>
+                </div>
+                <div class="cuerpo">
+                    <div class="izq">
+                        <span class="textDesc" >*Nombre</span>
+                        <span class="name"></span>
+                        <span class="textDesc" >Fecha</span>                     
+                        <input type="date" name="party" min="1990-01-01" max="2024-11-30" clase="fecha" />
+                    </label>
+                    <input type="text" id="uname" name="name" class="descripcion" placeholder="Descripción"/>    
+                    
+                    </div>
+                    <div class="der">
+                        <span class="textDesc">*Especie</span>
+                        <select name="select" class="especie">
+                            <option value="value1">Humano</option>
+                            <option value="value2" selected>Dios</option>
+                            <option value="value3">Extraterrestre</option>
+                          </select>
+                        <p class="textFoto">Agregar Foto</p>
+                        <div class="secImg">
+                            <span class="agregarImg">Seleccionar  archivo</span>
+                            <span class="archivo"> No se eligió archivo</span> 
+                        </div>
+
+                        <span class="textoPoder">Poderes</span>
+                        <div class="poder">
+                            <label >
+                                <input type="checkbox" id="cbox1" value="first_checkbox" /> Volar
+                            </label>
+                            <label >
+                                <input type="checkbox" id="cbox1" value="first_checkbox" /> Superinteligencia
+                            </label>
+                            <label > 
+                                <input type="checkbox" id="cbox1" value="first_checkbox" /> Vista de rayos láser
+                            </label>
+                            <label>
+                                <input type="checkbox" id="cbox1" value="first_checkbox" /> 
+                                Billetera gorda
+                            </label>
+                        </div>
+                    <hr>
+                        <span class="textoPersonaje">Tipo de personaje</span>
+                        <div class="personaje">
+                            <label  class="selPoderes" for="contactChoice2">
+                            <input type="radio" id="contactChoice2" name="contact" value="phone" /> Héroe / Heroína</label>
+                            <label class="selPoderes" for="contactChoice2">
+                            <input type="radio" id="contactChoice2" name="contact" value="phone" /> Villano / Villana</label>
+                        </div>                        
+                    </div>
+                </div>
+                <a href="#">Añadir</a>
+        </section>
+
+        
+
+    </main>
+    <footer>
+        <span>Todos los derechos reservados a TALLER DE DISEÑO WEB</span>
+        <img src="./IMG/Vector.png" alt="">
+    </footer>
+</body>
+</html>
